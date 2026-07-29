@@ -7,7 +7,20 @@
 
 <button  id="mostrarCadastro">Mostrar Cadastro</button>
   <button id="mostrarLogin">Mostrar Login</button>
+ <script> 
+  $("#mostrarCadastro").click(function(){
+    $("#cadastro").show();
+    $('#login').hide();
+  });
+  $('mostrarlogin').click(function(){
+$("#login").show();
+$("#cadastro").hide();
+  })
   
+
+
+
+ </script> 
   <h2>Cadastro</h2>
   <form id="cadastro">
     <p>
